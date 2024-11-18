@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Margin';
+    src: url("../fontes/Margin\ DEMO.otf");
+    font-weight: 50;
+}
+
+a{
+    color: #fff5e9;
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
+}
+
+h1 {
+    color: #fff5e9;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Margin";
+    font-size: 45px;
+    letter-spacing: 4px;
+    font-weight: 50;
+  }
+
+h2 {
+    font-family: 'Margin';
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 50;
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-size: 1.2em;
+    margin-bottom: 5px; 
+}
+
+.menu-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #BF2E00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.menu-header .logo {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 30px;
+}
+
+.menu-columns {
+    background:#FEDBAA;
+    margin-top:100px;
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 0.5px solid #ccc;
+    margin-bottom: 5px;
+    flex: 1;
+    margin: 100px;
+    width: 60%;
+}
+
+.category {
+    flex: 1;
+    max-width: 400px; 
+    min-width: 200px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .menu-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-columns {
+        flex-direction: column;
+    }
+}
+
+.category-title {
+    background-color: #2D6C44;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease-in-out; 
+    border-radius: 10px;
+}
+
+.menu-list li:hover {
+    background-color: #f5d3b5;
+    cursor: pointer;
+}
+
+.pizza-info {
+    text-align: left;
+    max-width: 70%; 
+}
+
+.pizza-info p {
+    margin: 0;
+    font-size: 20px;
+    color: #555; 
+}
+
+.price {
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #000;
+    white-space: nowrap; 
+}
+
+.menu-footer {
+    font-family: "Open Sans";
+    font-size: large;
+    background-color: #FEDBAA;;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    padding: 20px 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+   
+}
+
+.menu-footer-content{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    gap: 200px;
+    padding-left: 45px;
+}
+
+.menu-list img {
+    width: 100px; 
+    height: auto;
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+.menu-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 25px;
+    background-color: #BF2E00;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 100px;
+    margin-left: 15px;
+  }
+
+.category {
+    flex: 1;
+    min-width: 300px; 
+    text-align: center; 
+}
+
+.chef-image {
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    margin: 20px auto 0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#imgLogo{
+    width: 200px;
+    height: 200px;
+    
+}
+
+@media (max-width: 768px) {
+    .menu-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .chef-image {
+        margin-top: 10px; /
+    }
+}

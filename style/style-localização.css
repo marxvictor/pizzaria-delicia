@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Margin';
+    src: url("../fontes/Margin\ DEMO.otf");
+}
+
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
+}
+
+header {
+    background-color: #BF2E00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #F15A4D; /* cor similar ao tema do caminhão */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+h1, h2 {
+    color: #fff5e9;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Margin";
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: 50;
+}
+
+p {
+    text-align: center;
+    color: #fff5e9;
+    font-family: "Open Sans";
+    margin-top: -5px;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    max-height: 2000px;
+    margin: auto;
+    margin-top: 55px;
+    background: #FEDBAA;
+    border-radius: 10px;
+}
+
+.titulo-e-descricao-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: #5C3223; /* tom suave para descrever */
+    font-size: 18px;
+}
+
+.tabela-unidades-container {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FDEBDD; /* cor clara de fundo da tabela */
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #F4A983; /* cor das bordas das células */
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #2D6C44;
+    color: white;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 10px;   
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+    color: #5C3223;
+}
+
+/* Estilizando o ícone do caminhão */
+.food-truck {
+    display: block;
+    margin: 30px auto;
+    width: 350px;
+    margin-right: 100px;
+}
+
+.local-img {
+    position: absolute;
+    margin-left: 100px;
+}
+
+a {
+    color: #FFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-return {
+    margin-top: 30px;
+    margin-left: 400px;
+    background-color: #BF2E00;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.maps-local {
+    margin-top: 20px;
+    margin-right: 400px;
+    position: static;
+}
+
+.icondlocal {
+    margin-top: -1000px;
+    margin-left: 600px;
+    position: static;
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Margin';
+  src: url("../fontes/Margin\ DEMO.otf");
+  font-weight: 50;
+}
+
+body {
+  background-image: url("https://foodcont.com.br/wp-content/uploads/2021/07/anticaroma.jpg");
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0 20px;
+  font-family: 'Open Sans', sans-serif; /* Font padrão para o corpo */
+}
+
+h1 {
+  color: #fff5e9;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Margin';
+  font-size: 45px;
+  letter-spacing: 4px;
+  font-weight: 50;
+}
+
+h2 {
+  color: #fff5e9;
+  text-align: center;
+  font-family: 'Margin';
+  letter-spacing: 2px;
+  font-weight: 50;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color:  #BF2E00;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.form {
+  margin-left: 35%;
+  font-family: 'Open Sans';
+  color: #fff5e9;
+}
+
+input {
+  border-radius: 5px;
+  width: 50%;
+  height: 45px;
+  border-radius: 8px;
+}
+
+#botao {
+  background-color: #BF2E00;
+  border: none;
+  color: #000000;
+  height: 40px;
+  width: 80px;
+  border-radius: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff5e9;
+}

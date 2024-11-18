@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
+    margin: 0;
+    padding: 0 20px;
+  }
+  header {
+    background-color:  #BF2E00;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  #sec1, #sec2,  #sec3, #sec4, #sec5{
+    margin-top: 110px;
+    background-color: #FEDBAA;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 0.5px solid #ccc;
+    border-radius: 30px;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    text-align: center;
+  }
+  #botao{ 
+      margin: 10px;
+      background-color: #BF2E00;
+      border: none;
+      color:#000000;
+      height: 40px;
+      width: 80px;
+      border-radius: 40px;
+  }
+
+  h3{
+    color:#000000;
+    margin-left: 340px;
+  }
+
+  #igre{
+    color:rgb(77, 42, 42);
+    margin-left: 340px;
+  }
+  #preco, #valor{
+    color:rgb(77, 42, 42);
+    margin-left: 340px;
+  }
+  #preco{
+    color: rgb(0, 0, 0);
+}
+  #img{
+    height: 150px;
+    width: 150px;
+    margin-top: 17px;
+    margin-left: 17px;
+    border-radius: 10px;
+}

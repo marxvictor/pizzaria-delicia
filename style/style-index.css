@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: margin;
+    src: url("../fontes/Margin\ DEMO.otf");
+}
+
+body{
+    background-color: red;
+}
+
+header{
+    background-color: #BF2E00;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: margin;
+}
+
+header > nav > ul{
+    display: flex;
+    background-color: rgb(134, 0, 0);
+    padding: 5px;
+}
+
+header > nav > ul > li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+header > nav > ul > li:hover{
+    background-color: #BF2E00;
+}
+
+.nos {
+    background-image: url("../img/img-index/photo-1513104890138-7c749659a591.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.nos > h2{
+    padding-top: 25%;
+    padding-bottom: 20px;
+}
+
+.nos > p{
+    padding-bottom: 20%;
+}
+
+.cardapio{
+    background-color: white;
+    text-align: center;
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
+}
+
+.pizzas{
+    background-color: white;
+    width: 60%;
+}
+
+.pizzas > h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #BF2E00;
+    text-align: center;
+    color: white;
+}
+
+footer > ul > h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer > ul > li{
+    padding-bottom: 10px;
+}
+
+footer > ul > li > a{
+    text-decoration: none;
+    color: white;
+}

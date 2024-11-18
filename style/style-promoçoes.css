@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+    @font-face {
+      font-family: "Margin";
+      src: url("../fontes/Margin\ DEMO.otf") format("opentype");
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Open Sans";
+      background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #BF2E00;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+
+    h1 {
+      color: #fff5e9;
+      text-align: center;
+      margin: 10px 0;
+      font-family: "Margin";
+      font-size: 45px;
+      font-size: 45px;
+      letter-spacing: 4px;
+      font-weight: 50;
+    }
+
+    main {
+      flex: 1;
+      margin: 100px;
+      width: 60%;
+      background: #FEDBAA;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      border: 0.5px solid #ccc;
+      margin-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      font-weight: bold;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid #ccc;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #2D6C44;
+      color: white;
+    }
+
+    tr {
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      background-color: #f9f9f9;
+      width: 35%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: transform 0.5s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+      border: 1px #333;
+    }
+
+    .card p {
+      margin: 10px 0 0;
+      color: #333;
+      font-weight: bold;
+    }
+
+    button {
+      cursor: pointer;
+      text-align: center;
+      padding: 15px 25px;
+      color: #2D6C44;
+      background-color: #BF2E00;
+      border-radius: 5px;
+      width: 150px;
+      height: 50px;
+      font-size: large;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    a {
+      color: #fff5e9;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button:hover {
+      background-color: #2D6C44;
+    }
+
+    tr:hover {
+      background-color: #b5d5c0ed;
+    }
+
+    footer {
+      width: 100%;
+      background-color: #FEDBAA;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 10px;
+      margin: 50px;
+    }
+
+    .logo {
+      width: 200px;
+      margin-right: 15px;
+    }
