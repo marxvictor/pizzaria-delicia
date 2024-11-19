@@ -4,12 +4,15 @@
 }
 
 @font-face {
-    font-family: margin;
-    src: url("../fontes/Margin\ DEMO.otf");
+    font-family: "Coolvetica";
+    src: url("../fontes/coolvetica\ condensed\ rg.otf");
+    font-style: normal;
+    letter-spacing: 2px;
 }
 
 body{
     background-color: red;
+    font-family: "open sans";
 }
 
 header{
@@ -21,7 +24,7 @@ header > h1{
     padding-top: 30px;
     padding-bottom: 30px;
     color: white;
-    font-family: margin;
+    font-family: "Coolvetica";
 }
 
 header > nav > ul{
@@ -59,6 +62,7 @@ header > nav > ul > li:hover{
 .nos > h2{
     padding-top: 25%;
     padding-bottom: 20px;
+    font-family: "Coolvetica";
 }
 
 .nos > p{
@@ -79,6 +83,7 @@ header > nav > ul > li:hover{
 .pizzas > h2{
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family: "Coolvetica";
 }
 
 footer{
@@ -90,6 +95,7 @@ footer{
 footer > ul > h4{
     padding-top: 20px;
     padding-bottom: 10px;
+    font-family: "Coolvetica";
 }
 
 footer > ul > li{

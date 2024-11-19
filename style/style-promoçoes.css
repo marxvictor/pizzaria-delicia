@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
-    @font-face {
-      font-family: "Margin";
-      src: url("../fontes/Margin\ DEMO.otf") format("opentype");
-      font-weight: bold;
-      font-style: normal;
-    }
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../fontes/coolvetica\ condensed\ rg.otf");
+  font-style: normal;
+  letter-spacing: 2px;
+}
 
     * {
       margin: 0;
@@ -38,7 +38,7 @@
       color: #fff5e9;
       text-align: center;
       margin: 10px 0;
-      font-family: "Margin";
+      font-family: "Coolvetica";
       font-size: 45px;
       font-size: 45px;
       letter-spacing: 4px;

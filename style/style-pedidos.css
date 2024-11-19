@@ -1,7 +1,8 @@
 @font-face {
-  font-family: 'Margin';
-  src: url("../fontes/Margin\ DEMO.otf");
-  font-weight: 50;
+  font-family: "Coolvetica";
+  src: url("../fontes/coolvetica\ condensed\ rg.otf");
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 body {
@@ -19,7 +20,7 @@ h1 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Margin';
+  font-family: "Coolvetica";
   font-size: 45px;
   letter-spacing: 4px;
   font-weight: 50;
@@ -28,7 +29,7 @@ h1 {
 h2 {
   color: #fff5e9;
   text-align: center;
-  font-family: 'Margin';
+  font-family: "Coolvetica";
   letter-spacing: 2px;
   font-weight: 50;
   margin-top: 0;
