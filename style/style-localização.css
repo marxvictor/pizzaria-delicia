@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Coolvetica";
-    src: url("../fontes/coolvetica\ condensed\ rg.otf");
+    src: url("coolvetica/coolvetica\ condensed\ rg.otf");
     font-style: normal;
     letter-spacing: 2px;
 }
@@ -37,9 +37,8 @@ h1, h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Coolvetica";
-    font-size: 45px;
-    letter-spacing: 3px;
-    font-weight: 50;
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 
 p {
