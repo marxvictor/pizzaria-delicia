@@ -87,6 +87,10 @@ header > nav > ul > li:hover{
     font-family: "Coolvetica";
 }
 
+.pedido{
+    padding-bottom: 20px;
+}
+
 footer{
     background-color: #BF2E00;
     text-align: center;
