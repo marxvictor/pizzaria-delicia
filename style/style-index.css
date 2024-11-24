@@ -73,11 +73,12 @@ header > nav > ul > li:hover{
     background-color: white;
     text-align: center;
     background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .pizzas{
     background-color: white;
-    width: 60%;
 }
 
 .pizzas > h2{
