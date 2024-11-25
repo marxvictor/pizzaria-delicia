@@ -3,15 +3,20 @@
 ## Equipe: Marx, Luanna, Sabrina, João, Sandy, Guilherme, Effalaw e Luiz.
 
 ## Paginas e seus devidos devs:
-Menu (index): Marx
-Cardápio: Luanna e Sabrina
-Pedidos: João e Sandy
-Localizador: Guillherme e Effalaw
-Promoções: Luis
+
+### Menu (index): Marx
+
+### Cardápio: Luanna e Sabrina
+
+### Pedidos: João e Sandy
+
+### Localizador: Guillherme e Effalaw
+
+### Promoções: Luis
 
 Fonte títulos: Coolvetica
 Fonte corpo: Open Sans
 Cores: 
-Vermelho: #BF2E00
-Verde: #67ab60
-Bege: #fae1c3
+Vermelho: '#BF2E00'
+Verde: '#67ab60'
+Bege: '#fae1c3'
