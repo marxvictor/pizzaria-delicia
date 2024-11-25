@@ -14,11 +14,16 @@
 
 ### Promoções: Luis
 
+## STYLE
+
 Fonte títulos: Coolvetica
 
 Fonte corpo: Open Sans
 
 Cores: 
-Vermelho: '#BF2E00'
-Verde: '#67ab60'
-Bege: '#fae1c3'
+
+Vermelho: `#BF2E00`
+
+Verde: `#67ab60`
+
+Bege: `#fae1c3`
