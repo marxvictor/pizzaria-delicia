@@ -1,170 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-
 @font-face {
-  font-family: "Coolvetica"; /*Alteração de fonte*/
+  font-family: "Coolvetica"; /*Importando fonte Coolvetica*/
   src: url("../fontes/coolvetica\ condensed\ rg.otf");
   font-style: normal;
   letter-spacing: 2px;
 }
-
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    html,
-    body {
-      height: 100%;
-    }
-
-    body { /*Alteração de visualização display flex*/
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: "Open Sans";
-      background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
-    }
-
-    header { /*Alteração de cores background*/
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: #BF2E00;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-      z-index: 1000;
-    }
-
-    h1 { /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
-      color: #fff5e9;
-      text-align: center;
-      margin: 10px 0;
-      font-family: "Coolvetica";
-      font-size: 45px;
-      font-size: 45px;
-      letter-spacing: 4px;
-      font-weight: 50;
-    }
-
-    main {
-      flex: 1;
-      margin: 100px;
-      width: 60%;
-      background: #FEDBAA; /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-      border: 0.5px solid #ccc;
-      margin-bottom: 5px;
-    }
-
-    table {
-      width: 100%;
-      margin: 20px 0;
-      border-collapse: collapse;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-      font-weight: bold;
-    }
-
-    table,
-    th,
-    td {
-      border: 1px solid #ccc;
-    }
-
-    th,
-    td {
-      padding: 10px;
-      text-align: center;
-    }
-
-    th {
-      background-color: #2D6C44;
-      color: white;
-    }
-
-    tr {
-      background-color: #f9f9f9;
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin: 20px;
-    }
-
-    .card {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      margin: 10px;
-      background-color: #f9f9f9;
-      width: 35%;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-      text-align: center;
-      transition: transform 0.5s ease;
-    }
-
-    .card:hover {
-      transform: scale(1.1);
-    }
-
-    .card img {
-      width: 100%;
-      border-radius: 5px;
-      border: 1px #333;
-    }
-
-    .card p {
-      margin: 10px 0 0;
-      color: #333;
-      font-weight: bold;
-    }
-
-    button {
-      cursor: pointer;
-      text-align: center;
-      padding: 15px 25px;
-      color: #2D6C44;
-      background-color: #BF2E00;
-      border-radius: 5px;
-      width: 150px;
-      height: 50px;
-      font-size: large;
-      margin-right: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    a {
-      color: #fff5e9;
-      text-decoration: none;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    button:hover {
-      background-color: #2D6C44; 
-    }
-
-    tr:hover {
-      background-color: #b5d5c0ed;
-    }
-
-    footer {
-      width: 100%;
-      background-color: #FEDBAA; /*Alteração de cores, alinhamento e espaçamento*/
-      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 10px;
-      margin: 50px;
-    }
-
-    .logo {
-      width: 200px;
-      margin-right: 15px;
-    }
+* {
+  margin: 0;
+  padding: 0; /*Resetando margens e padding de todos os elementos*/
+}
+html,
+body {
+  height: 100%; /*Configurando altura de html e body para 100%*/
+}
+body {
+  /*Alteração de visualização display flex*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans"; /*Definindo fonte Open Sans para o body*/
+  background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp"); /*Definindo imagem de fundo para o body*/
+}
+header {
+  /*Alteração de cores background*/
+  position: fixed; /*Fixando header no topo da página*/
+  top: 0;
+  width: 100%;
+  background-color: #bf2e00; /*Definindo cor de fundo do header*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /*Aplicando sombra ao header*/
+  z-index: 1000; /*Garantindo que o header fique acima de outros elementos*/
+}
+h1 {
+  /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
+  color: #fff5e9;
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Coolvetica"; /*Usando fonte Coolvetica para o h1*/
+  font-size: 45px; /*Definindo tamanho da fonte*/
+  letter-spacing: 4px; /*Espaçamento entre letras*/
+  font-weight: 50;
+}
+main {
+  flex: 1;
+  margin: 100px;
+  width: 60%;
+  background: #fedbaa; /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /*Aplicando sombra ao main*/
+  border: 0.5px solid #ccc;
+  margin-bottom: 5px;
+}
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc; /*Definindo bordas para tabela, cabeçalho e células*/
+}
+th,
+td {
+  padding: 10px;
+  text-align: center; /*Centralizando texto em cabeçalhos e células*/
+}
+th {
+  background-color: #2d6c44; /*Definindo cor de fundo para cabeçalhos*/
+  color: white; /*Cor do texto dos cabeçalhos*/
+}
+tr {
+  background-color: #f9f9f9; /*Cor de fundo das linhas da tabela*/
+}
+tr:hover {
+  background-color: #b5d5c0ed; /*Alterando cor de fundo das linhas ao passar o mouse*/
+}
+.container {
+  display: flex; /*Usando flexbox para os cartões*/
+  justify-content: space-around;
+  flex-wrap: wrap; /*Permitir que os cartões se ajustem em várias linhas*/
+  margin: 20px;
+}
+.card {
+  border: 1px solid #ccc; /*Borda dos cartões*/
+  border-radius: 5px; /*Arredondando cantos dos cartões*/
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9; /*Cor de fundo dos cartões*/
+  width: 35%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /*Aplicando sombra aos cartões*/
+  text-align: center; /*Centralizando texto dentro dos cartões*/
+  transition: transform 0.5s ease; /*Transição suave para efeitos de hover*/
+}
+.card:hover {
+  transform: scale(1.1); /*Aumentando o cartão quando o mouse passa por cima*/
+}
+.card img {
+  width: 100%; /*Largura total para imagens dentro dos cartões*/
+  border-radius: 5px; /*Arredondando cantos das imagens*/
+  border: 1px #333;
+}
+.card p {
+  margin: 10px 0 0;
+  color: #333;
+  font-weight: bold; /*Texto em negrito nos parágrafos dos cartões*/
+}
+button {
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 25px;
+  color: #2d6c44;
+  background-color: #bf2e00;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #fff5e9;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: #2d6c44; /*Alterando cor de fundo do botão ao passar o mouse*/
+}
+footer {
+  width: 100%;
+  background-color: #fedbaa; /*Alteração de cores, alinhamento e espaçamento*/
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5); /*Aplicando sombra ao footer*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin: 50px;
+}
+.logo {
+  width: 200px;
+  margin-right: 15px;
+}
