@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "Coolvetica";
-    src: url("../coolvetica/coolvetica\ condensed\ rg.otf");
-    font-style: normal;
-    letter-spacing: 2px;
+    font-family: "Coolvetica";/*Nome da fonte*/
+    src: url("../coolvetica/coolvetica\ condensed\ rg.otf");/*Caminho para usar a fonte*/
+    font-style: normal;/*define o estilo da fonte*/
+    letter-spacing: 2px;/*espaçamento*/
 }
 
 a{
