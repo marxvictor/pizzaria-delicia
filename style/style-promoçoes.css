@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 @font-face {
-  font-family: "Coolvetica";
+  font-family: "Coolvetica"; /*Alteração de fonte*/
   src: url("../fontes/coolvetica\ condensed\ rg.otf");
   font-style: normal;
   letter-spacing: 2px;
@@ -17,7 +17,7 @@
       height: 100%;
     }
 
-    body {
+    body { /*Alteração de visualização display flex*/
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -25,7 +25,7 @@
       background-image: url("https://http2.mlstatic.com/D_NQ_NP_638459-MLB52927911752_122022-O.webp");
     }
 
-    header {
+    header { /*Alteração de cores background*/
       position: fixed;
       top: 0;
       width: 100%;
@@ -34,7 +34,7 @@
       z-index: 1000;
     }
 
-    h1 {
+    h1 { /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
       color: #fff5e9;
       text-align: center;
       margin: 10px 0;
@@ -49,7 +49,7 @@
       flex: 1;
       margin: 100px;
       width: 60%;
-      background: #FEDBAA;
+      background: #FEDBAA; /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
       border: 0.5px solid #ccc;
       margin-bottom: 5px;
@@ -146,7 +146,7 @@
     }
 
     button:hover {
-      background-color: #2D6C44;
+      background-color: #2D6C44; 
     }
 
     tr:hover {
@@ -155,7 +155,7 @@
 
     footer {
       width: 100%;
-      background-color: #FEDBAA;
+      background-color: #FEDBAA; /*Alteração de cores, alinhamento e espaçamento*/
       box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
       display: flex;
       align-items: center;
