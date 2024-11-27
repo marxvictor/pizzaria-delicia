@@ -1,43 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Pizza Delícia - Faça seu Pedido</title>
-    <link href="style/style-pedidos.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style/style-pedidos.css"/>
 </head>
 <body>
-
     <header>
-    <h1>Pizza Delícia</h1>
-    <h2>Faça seu Pedido</h2>
-    <p>Personalize sua pizza e aproveite a autêntica experiência Pizza Delícia!</p>
-    <figure class="figure2">
-    <img src="img/img-pedidos/2.png" alt="Emoji do copo" width="300" height="200">
-    </figure>
-        <hr>
+        <h1>Pizza Delícia</h1>
+        <h2>Faça seu Pedido</h2>
+        <p>Personalize sua pizza e aproveite a autêntica experiência Pizza Delícia!</p>
+        <hr/>
     </header>
 
-    <!-- Formulário de Cadastro -->
-    <article>
-        <form class="form" action="#" method="post">
-            <!-- Nome -->
-            <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome" required><br><br>
+    <main>
+        <article>
+            <form action="processar-pedido.php" class="form" method="post">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Seu nome completo" required aria-label="Nome completo do cliente"/>
 
-            <!-- Telefone -->
-            <label for="telefone">Telefone:</label><br>
-            <input type="tel" id="telefone" name="telefone" required><br><br>
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" name="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" required aria-label="Telefone para contato"/>
 
-            <!-- Email -->
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="seu email" required aria-label="Endereço de email"/>
 
-            <!-- Linha divisória -->
-            <button id="botao"> <a rel="stylesheet" href="pag2.html">
-                Entrar</button>
-                </form>
-     </article>
-           
-           
+                <label for="tamanho">Tamanho da Pizza:</label>
+                <select id="tamanho" name="tamanho" required aria-label="Seleção do tamanho da pizza">
+                    <option disabled selected value="">Selecione o tamanho</option>
+                    <option value="pequena">Pequena</option>
+                    <option value="media">Média</option>
+                    <option value="grande">Grande</option>
+                </select>
+
+                <label for="sabor">Sabor:</label>
+                <select id="sabor" name="sabor" required aria-label="Seleção do sabor da pizza">
+                    <option disabled selected value="">Selecione o sabor</option>
+                    <option value="Marguerita">Marguerita</option>
+                    <option value="Calabresa">Calabresa</option>
+                    <option value="portuguesa">Portuguesa</option>
+                    <option value="quatro-queijos">Quatro Queijos</option>
+                    <option value="Frango com Catupiry">Frango com Catupiry</option>
+                    <option value="pepperonni">Pepperoni Supreme</option>
+                    <option value="vegetariana">Vegetariana</option>
+                    <option value="do chef">Do chef</option>
+                </select>
+
+                <label for="bebida">Bebida:</label>
+                <select id="bebida" name="bebida" required aria-label="Seleção da bebida">
+                    <option disabled selected value="">Selecione a bebida</option>
+                    <option value="refrigerante">Refrigerante</option>
+                    <option value="suco">Suco</option>
+                    <option value="agua">Água</option>
+                </select>
+
+                <label for="endereco">Endereço para Entrega:</label>
+                <textarea id="endereco" name="endereco" placeholder="Rua, número, complemento, bairro, cidade" required aria-label="Endereço completo para entrega"></textarea>
+
+                <button id="botao" type="submit">Fazer Pedido</button>
+            </form>
+        </article>
+    </main>
 </body>
+</html>

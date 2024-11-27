@@ -1,20 +1,18 @@
 @font-face {
   font-family: "Coolvetica";
-  src: url("../fontes/coolvetica condensed rg.woff2") format("woff2"),
-          url("../fontes/coolvetica condensed rg.woff") format("woff"),
-          url("../fontes/coolvetica condensed rg.otf") format("opentype");
+  src: url("../fontes/coolvetica condensed rg.otf");
   font-style: normal;
   letter-spacing: 2px;
-} /*Correção de src para fonte -guille*/
+}
 
 body {
   background-image: url("https://foodcont.com.br/wp-content/uploads/2021/07/anticaroma.jpg");
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0 20px;
-  font-family: 'Open Sans', sans-serif; /* Font padrão para o corpo */
+  font-family: 'Coolvetica', 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -39,42 +37,55 @@ h2 {
 }
 
 header {
-  background-color:  #BF2E00;
+  background-color: #BF2E00;
   color: #000000;
   padding: 20px;
   text-align: center;
 }
 
 .form {
-  margin-left: 35%;
-  font-family: 'Open Sans';
-  color: #fff5e9;
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Coolvetica', 'Open Sans';
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
 
-input {
+input, select, textarea {
   border-radius: 5px;
-  width: 50%;
+  width: 100%;
   height: 45px;
-  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Coolvetica', 'Open Sans', sans-serif;
+}
+
+textarea {
+  height: 100px;
 }
 
 #botao {
   background-color: #BF2E00;
   border: none;
-  color: #000000;
-  height: 40px;
-  width: 80px;
-  border-radius: 40px;
+  color: #fff5e9;
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Coolvetica', 'Open Sans', sans-serif;
+}
+
+#botao:hover {
+  background-color: #a62800;
 }
 
 a {
   text-decoration: none;
   color: #fff5e9;
+  font-family: 'Coolvetica', 'Open Sans', sans-serif;
 }
-
-p {
-  color: #fff;
-  font-family: "Coolvetica";
-  font-size: 22px;
-} /* Add correções no p -guille*/
-
