@@ -1,5 +1,4 @@
-![Foto do projeto](img/img-cardapio/1.png.jpg)
-
+![1](https://github.com/user-attachments/assets/1fe7e74c-dd32-44c8-8096-e167d5e4dcff)
 
 # PIZZARIA DELÍCIA
 
