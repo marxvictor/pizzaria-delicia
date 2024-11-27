@@ -1,9 +1,11 @@
 @font-face {
   font-family: "Coolvetica";
-  src: url("../fontes/coolvetica\ condensed\ rg.otf");
+  src: url("../fontes/coolvetica condensed rg.woff2") format("woff2"),
+          url("../fontes/coolvetica condensed rg.woff") format("woff"),
+          url("../fontes/coolvetica condensed rg.otf") format("opentype");
   font-style: normal;
   letter-spacing: 2px;
-}
+} /*Correção de src para fonte -guille*/
 
 body {
   background-image: url("https://foodcont.com.br/wp-content/uploads/2021/07/anticaroma.jpg");
@@ -69,3 +71,10 @@ a {
   text-decoration: none;
   color: #fff5e9;
 }
+
+p {
+  color: #fff;
+  font-family: "Coolvetica";
+  font-size: 22px;
+} /* Add correções no p -guille*/
+
