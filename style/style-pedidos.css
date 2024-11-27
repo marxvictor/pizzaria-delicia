@@ -89,3 +89,9 @@ a {
   color: #fff5e9;
   font-family: 'Coolvetica', 'Open Sans', sans-serif;
 }
+
+p {
+  font-family: "Coolvetica";
+  color: #fff;
+  font-size: 22px;
+} /*Add de p para correções*/
