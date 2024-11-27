@@ -1,9 +1,11 @@
 @font-face {
-    font-family: "Coolvetica";/*Nome da fonte*/
-    src: url("../coolvetica/coolvetica\ condensed\ rg.otf");/*Caminho para usar a fonte*/
-    font-style: normal;/*define o estilo da fonte*/
-    letter-spacing: 2px;/*espaçamento*/
-}
+    font-family: "Coolvetica";
+    src: url("../fontes/coolvetica condensed rg.woff2") format("woff2"),
+            url("../fontes/coolvetica condensed rg.woff") format("woff"),
+            url("../fontes/coolvetica condensed rg.otf") format("opentype");
+    font-style: normal;
+    letter-spacing: 2px;
+} /*Correção de src para fonte -guille*/
 
 a{
     color: #fff5e9;
