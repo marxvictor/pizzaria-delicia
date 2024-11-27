@@ -3,19 +3,19 @@
 
 ## Turma FSN3
 
-## Equipe: Marx, Luanna, Sabrina, João, Sandy, Guilherme, Effalaw e Luiz.
+## Equipe: Francisca Sandiele Carvalho Oliveira, Guilherme, João Emanuel de Andrade Carneiro, Luanna Galliza Ribeiro, Luis Raizer, Marx Victor, Sabrina Rodrigues Malveira e Wallafe Effalaw.
 
 ## Paginas e seus devidos devs:
 
-### Menu (index): Marx
+### Menu (index): Marx Victor
 
-### Cardápio: Luanna e Sabrina
+### Cardápio: Luanna Galliza e Sabrina Rodrigues
 
-### Pedidos: João e Sandy
+### Pedidos: João Emanuel e Sandile Oliveira
 
-### Localizador: Guillherme e Effalaw
+### Localizador: Guillherme e Wallafe Effalaw
 
-### Promoções: Luis
+### Promoções: Luis Raizer
 
 ## STYLE
 
