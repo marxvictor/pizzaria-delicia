@@ -136,7 +136,7 @@ h3 {
 
 .menu-list li {
     display: flex;
-    flex-direction: left;
+    flex-direction: left; /* ajuste flex-direction */
     align-items: center;
     border-radius: 15px;
     background-color: #fff;
