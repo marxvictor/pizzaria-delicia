@@ -5,7 +5,7 @@
             url("../fontes/coolvetica condensed rg.otf") format("opentype");
     font-style: normal;
     letter-spacing: 2px;
-} /*Correção de src para fonte -guille*/
+} /*Correção de src para fonte -guille*/ 
 
 a{
     color: #fff5e9;
@@ -13,7 +13,7 @@ a{
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Open Sans"; 
     margin: 0;
     padding: 0;
     color: #333;
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    color: #fff5e9; /*Alteração de fonte (tamanho e cor)*/
+    color: #fff5e9; /*Alteração de fonte (tamanho e cor)*/ 
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,6 +90,21 @@ h3 {
     text-align: center; 
 }
 
+/* Centralizei a imagem dentro da classe menu-header-img e defini o tamanho */
+.menu-header-img {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.menu-header-img img {
+    width: 40%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .menu-content {
@@ -101,12 +116,14 @@ h3 {
     }
 }
 
+/* Ajuste da categoria-title */
 .category-title {
     background-color: #2D6C44;
     color: #fff;
     text-align: center;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-top: 0; 
+    margin-bottom: 10px; 
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 20px;
