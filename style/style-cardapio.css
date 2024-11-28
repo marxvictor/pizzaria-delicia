@@ -136,30 +136,31 @@ h3 {
 
 .menu-list li {
     display: flex;
-    justify-content: space-between;
-    align-items: center; /* Alinhei verticalmente os itens (preço e descrição) */
-    padding: 15px 0;
-    border-bottom: 1px solid #ccc;
-    transition: background-color 0.3s ease-in-out; 
-    border-radius: 10px;
+    flex-direction: left;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaçamento entre os cartões */
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: left; /* Alterado para alinhar o conteúdo à esquerda */
+    padding: 15px;
 }
 
 .menu-list li:hover {
-    background-color: #f5d3b5;
-    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
 }
 
 .pizza-info {
-    flex: 1;
-    text-align: left; 
-    min-width: 150px; 
-    max-width: 60%; 
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .pizza-info p {
     margin: 0;
-    font-size: 20px;
-    color: #555; 
+    font-size: 17px;
+    color: #555;
 }
 
 .price {
@@ -167,23 +168,23 @@ h3 {
     font-weight: bold;
     color: #000;
     white-space: nowrap;
-    text-align: right; /* Alinhei o preço à direita */
+    margin-top: 10px;
+    text-align: left; /* Alinhei o preço à direita */
     width: 120px; 
 }
 
 .menu-footer {
     font-family: "Open Sans";
     font-size: large;
-    background-color: #FEDBAA;;
+    background-color: #FEDBAA;
     color: #000;
     text-align: center;
     align-items: center;
     padding: 20px 10px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
-   
 }
 
-.menu-footer-content{
+.menu-footer-content {
     align-items: center;
     display: flex;
     text-align: center;
@@ -192,12 +193,9 @@ h3 {
 }
 
 .menu-list img {
-    width: 100px; 
-    height: auto;
-    object-fit: cover; 
-    border-radius: 5px;
-    margin-right: 10px; 
+    width: 80px;
 }
+
 .menu-columns {
     display: flex;
     justify-content: space-between;
@@ -225,10 +223,15 @@ button {
     margin-left: 15px;
   }
 
-.category {
-    flex: 1;
-    min-width: 300px; 
-    text-align: center; 
+.category-title {
+    background-color: #2D6C44;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 20px;
 }
 
 .chef-image {
