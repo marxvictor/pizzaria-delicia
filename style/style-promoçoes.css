@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @font-face {
-  font-family: "Coolvetica"; /*Importando fonte Coolvetica*/
-  src: url("../fontes/coolvetica\ condensed\ rg.otf");
+  font-family: "Coolvetica";
+  src: url("../fontes/coolvetica condensed rg.woff2") format("woff2"),
+          url("../fontes/coolvetica condensed rg.woff") format("woff"),
+          url("../fontes/coolvetica condensed rg.otf") format("opentype");
   font-style: normal;
   letter-spacing: 2px;
-}
+} 
 * {
   margin: 0;
   padding: 0; /*Resetando margens e padding de todos os elementos*/
@@ -31,14 +32,14 @@ header {
   z-index: 1000; /*Garantindo que o header fique acima de outros elementos*/
 }
 h1 {
-  /*Alteração de cores, fonte, tamanho, alinhamento e espaçamento*/
-  color: #fff5e9;
+  color: #fff5e9; /*Alteração de fonte (tamanho e cor)*/ 
   text-align: center;
-  margin: 10px 0;
-  font-family: "Coolvetica"; /*Usando fonte Coolvetica para o h1*/
-  font-size: 45px; /*Definindo tamanho da fonte*/
-  letter-spacing: 4px; /*Espaçamento entre letras*/
-  font-weight: 50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Coolvetica";
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 main {
   flex: 1;
