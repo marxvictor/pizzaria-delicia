@@ -1,9 +1,11 @@
 @font-face {
   font-family: "Coolvetica";
-  src: url("../fontes/coolvetica condensed rg.otf");
+  src: url("../fontes/coolvetica condensed rg.woff2") format("woff2"),
+          url("../fontes/coolvetica condensed rg.woff") format("woff"),
+          url("../fontes/coolvetica condensed rg.otf") format("opentype");
   font-style: normal;
   letter-spacing: 2px;
-}
+} 
 
 body {
   background-image: url("https://foodcont.com.br/wp-content/uploads/2021/07/anticaroma.jpg");
@@ -21,19 +23,19 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Coolvetica";
-  font-size: 45px;
-  letter-spacing: 4px;
-  font-weight: 50;
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 h2 {
-  color: #fff5e9;
+  color: #fff5e9; 
+  font-family: "Coolvetica"; 
   text-align: center;
-  font-family: "Coolvetica";
+  font-size: 25px;
   letter-spacing: 2px;
-  font-weight: 50;
-  margin-top: 0;
-  margin-bottom: 20px;
+  font-style: normal;
+  letter-spacing: 2px;
 }
 
 header {
@@ -47,6 +49,7 @@ header {
   margin: 0 auto;
   width: 50%;
   font-family: 'Coolvetica', 'Open Sans';
+  font-size: 1.2em;
   color: #000;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
@@ -62,6 +65,7 @@ input, select, textarea {
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-family: 'Coolvetica', 'Open Sans', sans-serif;
+  font-size: 1.2em;
 }
 
 textarea {
@@ -75,9 +79,10 @@ textarea {
   height: 45px;
   width: 100%;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   font-family: 'Coolvetica', 'Open Sans', sans-serif;
+  font-size: 1.2em;
 }
 
 #botao:hover {
@@ -91,7 +96,8 @@ a {
 }
 
 p {
-  font-family: "Coolvetica";
-  color: #fff;
-  font-size: 22px;
-} /*Add de p para correções*/
+  font-family: "Open Sans";
+  color: #fff5e9;
+  font-size: 1.2em;
+  margin-bottom: 5px; 
+}
